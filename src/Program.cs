@@ -8,7 +8,7 @@ using NLog.Extensions.Logging;
 using NLog.StructuredLogging.Json;
 
 
-namespace Playgoriund
+namespace Src
 {
     class Program
     {
