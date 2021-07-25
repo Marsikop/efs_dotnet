@@ -2,7 +2,6 @@ version: '3'
 services:
   net_app:
     image: my_net_app
-    depends_on: ["fluentd"]
     logging:
       driver: "fluentd"
       options:
