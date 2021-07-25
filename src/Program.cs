@@ -18,7 +18,7 @@ namespace Src
 
             try
             {
-                logger.ExtendedInfo("Sending order", new { OrderId = 1234, RestaurantId = 4567 });
+                logger.ExtendedInfo("Sending order", new { OrderId = 1234, RestaurantId = 4567, Bla = "Blabla" });
 
                 Thread.Sleep(Timeout.Infinite);
             }

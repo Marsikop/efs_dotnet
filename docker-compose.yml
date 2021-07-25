@@ -30,6 +30,8 @@ services:
     volumes:
       - ./fluentd/conf:/fluentd/etc
       - ./logs:/logs
+    environment:
+      - FLUENTD_CONF=fluent.conf
     ports:
       - 8081:8080
       - 24224:24224
